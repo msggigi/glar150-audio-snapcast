@@ -48,6 +48,15 @@ Follow these steps to get your sound up and running on a GL-AR-150:
     ```
     opkg install snapclient_0.15.0_mips_24kc.ipk
     ```
+    
+6. Configure your snapcast client to connect with snapserver
+    ```
+    vi /etc/default/snapclient
+    ```
+    and replace the line 
+    ```
+    SNAPCLIENT_OPTS="-h YOURSNAPSERVERIP"
+    ```
 
 
 Resources:
